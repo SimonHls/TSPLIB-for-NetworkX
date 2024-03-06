@@ -17,4 +17,4 @@ There are some distance calculation methods in TSPLIB taht i didnt implement yet
 Thanks to: http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/
 Which is awesome!
 
-Maybe this helps someone! 
+Maybe this helps someone!  
