@@ -41,11 +41,11 @@ if __name__ == "__main__":
     
     opt_tour_filename = "../tour_files/ulysses16.opt.tour"
     optimal_path = util.parse_opt_tour_file(opt_tour_filename)
-    closed_optimal_path, closed_optimal_path_weight = util.close_path(G, optimal_path)
+    closed_optimal_path = util.close_path(G, optimal_path)
     closed_optimal_path_length = util.calculate_path_length(G, closed_optimal_path)
     
     start_node, nnh_path, weight = all_nearest_neighbor(G)
-    closed_nnh_path, closed_nnh_path_weight = util.close_path(G, nnh_path)
+    closed_nnh_path = util.close_path(G, nnh_path)
     closed_nnh_path_length = util.calculate_path_length(G, closed_nnh_path)
     pos = nx.spring_layout(G)  # Calculate layout for visual representation
     print(f"Nearest neighbor path: {closed_nnh_path}")

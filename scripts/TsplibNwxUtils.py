@@ -121,7 +121,7 @@ def close_path(G, path):
         closed_path = path  # Path is already closed
         weight = 0  # No additional weight required to close the path
 
-    return closed_path, weight
+    return closed_path
 
 
 if __name__ == "__main__":
