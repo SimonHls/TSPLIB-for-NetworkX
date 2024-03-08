@@ -1,5 +1,7 @@
 # TSPLIP visualized
 
+Well, turns out this already exists way better, use this instead: https://pypi.org/project/tsplib95/
+
 I used TSPLIBs examples to benchmark some heuristics.
 Since i use NetworkX to visualize the node trees, i wrote some python code that reads the provided .tsp and .tour files from TSPLIB and converts them to be easily usable for NetworkX.
 
